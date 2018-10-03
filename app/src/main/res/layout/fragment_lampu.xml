@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ic.lab.incrediblehome.LampuFragment"
+  >
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="LIGHT"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="19dp"
+        android:text="Kamar"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/lampukirikamar"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/lampumati" />
+
+    <Switch
+        android:id="@+id/swchkamar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lampukirikamar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Saklar"
+        android:textOff="OFF"
+        android:textOn="ON" />
+
+    <ImageView
+        android:id="@+id/lampukamarkanan"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/lampumati" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lampukirikamar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Kamar Mandi"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/lmpkmmdkr"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/lampukirikamar"
+        android:layout_alignStart="@+id/lampukirikamar"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/lampumati" />
+
+    <Switch
+        android:id="@+id/swchkmmd"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/swchkamar"
+        android:layout_alignStart="@+id/swchkamar"
+        android:layout_centerVertical="true"
+        android:text="Saklar" />
+
+    <ImageView
+        android:id="@+id/lmpkmkn"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/lampukamarkanan"
+        android:layout_alignStart="@+id/lampukamarkanan"
+        android:layout_alignTop="@+id/lmpkmmdkr"
+        android:src="@drawable/lampumati" />
+
+</RelativeLayout>

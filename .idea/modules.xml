@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:\DP3\Android Studio\iottelu-master-c5a72fbf7877d221fa5447203f9b5e06e0444096\iottelu-master-c5a72fbf7877d221fa5447203f9b5e06e0444096\IncredibleHome-master.iml" filepath="E:\DP3\Android Studio\iottelu-master-c5a72fbf7877d221fa5447203f9b5e06e0444096\iottelu-master-c5a72fbf7877d221fa5447203f9b5e06e0444096\IncredibleHome-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iottelu-master-c5a72fbf7877d221fa5447203f9b5e06e0444096.iml" filepath="$PROJECT_DIR$/iottelu-master-c5a72fbf7877d221fa5447203f9b5e06e0444096.iml" />
+    </modules>
+  </component>
+</project>

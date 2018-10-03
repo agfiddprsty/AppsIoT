@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_lampu"
+        android:icon="@drawable/ic_insert_chart_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_pintu"
+        android:icon="@drawable/door"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_suhu"
+        android:icon="@drawable/ic_cloud_black_24dp"
+        android:title="@string/title_notifications" />
+</menu>

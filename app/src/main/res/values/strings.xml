@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Incredible Home</string>
+    <string name="title_activity_bottom">Bottom</string>
+    <string name="title_home">Statistik</string>
+    <string name="title_dashboard">Ruangan</string>
+    <string name="title_notifications">Suhu</string>
+    <string name="title_polut">Polusi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_io_ttel">IoTTel</string>
+</resources>
